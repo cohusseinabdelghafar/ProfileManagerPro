@@ -1,0 +1,49 @@
+<svg width="1400" height="560" viewBox="0 0 1400 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Dynamic Background -->
+    <defs>
+        <linearGradient id="hyperGradient" x1="0" y1="0" x2="1400" y2="560">
+            <stop offset="0%" stop-color="#2962FF"/>
+            <stop offset="100%" stop-color="#1E88E5"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Background -->
+    <rect width="1400" height="560" fill="url(#hyperGradient)"/>
+    
+    <!-- Dynamic Geometric Elements -->
+    <path d="M0 0 L1400 0 L1360 40 L40 40 Z" fill="white" fill-opacity="0.1"/>
+    <path d="M0 560 L1400 560 L1360 520 L40 520 Z" fill="white" fill-opacity="0.1"/>
+    
+    <!-- Main Content Container - Centered -->
+    <g transform="translate(95, 180)">  <!-- Adjusted positioning for new dimensions -->
+        <!-- Modern Logo Container -->
+        <rect x="0" y="0" width="140" height="140" rx="40" fill="white"/>
+        
+        <!-- Profile Icon - Modernized -->
+        <path d="M70 30C62.8 30 57 35.8 57 43C57 50.2 62.8 56 70 56C77.2 56 83 50.2 83 43C83 35.8 77.2 30 70 30ZM70 60C60.6 60 52 68.6 52 78V84H88V78C88 68.6 79.4 60 70 60Z" fill="#2962FF"/>
+        
+        <!-- Text Container with Modern Styling -->
+        <g transform="translate(180, 0)">
+            <!-- Title with Dynamic Styling -->
+            <text font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="700" fill="white" textLength="600">
+                <tspan x="0" y="80">Profile Manager Pro</tspan>
+            </text>
+            
+            <!-- Subtitle with Modern Touch -->
+            <g fill="white" opacity="0.95">
+                <text font-family="Segoe UI, Arial, sans-serif" font-size="48">
+                    <tspan x="0" y="160">Manage Multiple Profiles</tspan>
+                </text>
+                <text font-family="Segoe UI, Arial, sans-serif" font-size="48">
+                    <tspan x="0" y="220">with Ease</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+    
+    <!-- Dynamic Corner Accents -->
+    <path d="M0 0L40 0L40 4L4 4L4 40L0 40Z" fill="white" opacity="0.3"/>
+    <path d="M1400 0L1360 0L1360 4L1396 4L1396 40L1400 40Z" fill="white" opacity="0.3"/>
+    <path d="M0 560L40 560L40 556L4 556L4 520L0 520Z" fill="white" opacity="0.3"/>
+    <path d="M1400 560L1360 560L1360 556L1396 556L1396 520L1400 520Z" fill="white" opacity="0.3"/>
+</svg> 
