@@ -1,7 +1,37 @@
-<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <!-- Main Circle (Profile) -->
-    <circle cx="20" cy="20" r="19" stroke="#4a90e2" stroke-width="2" fill="white"/>
-    
-    <!-- Profile Icon -->
-    <path d="M20 10C17.8 10 16 11.8 16 14C16 16.2 17.8 18 20 18C22.2 18 24 16.2 24 14C24 11.8 22.2 10 20 10ZM20 20C16.7 20 14 22.7 14 26V28H26V26C26 22.7 23.3 20 20 20Z" fill="#4a90e2"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield Background - Made Bigger -->
+  <path d="M64 4L118 24V64C118 90 94 112 64 124C34 112 10 90 10 64V24L64 4Z" fill="url(#shield)" />
+  <path d="M64 14L104 30V64C104 84 84 98 64 106C44 98 24 84 24 64V30L64 14Z" fill="white" opacity="0.08" />
+  
+  <!-- Center Profile - Reduced White -->
+  <circle cx="64" cy="54" r="18" fill="white" opacity="0.9" />
+  <circle cx="64" cy="46" r="7" fill="#4A90E2" />
+  <path d="M48 64C48 59.5817 51.5817 56 56 56H72C76.4183 56 80 59.5817 80 64V64C80 64.5523 79.5523 65 79 65H49C48.4477 65 48 64.5523 48 64V64Z" fill="#4A90E2" />
+  
+  <!-- Small Profile Icons - Slightly Reduced -->
+  <circle cx="44" cy="68" r="7" fill="white" opacity="0.7" />
+  <circle cx="44" cy="65" r="3" fill="#4A90E2" opacity="0.8" />
+  <path d="M38 71C38 69.3431 39.3431 68 41 68H47C48.6569 68 50 69.3431 50 71V71C50 71.5523 49.5523 72 49 72H39C38.4477 72 38 71.5523 38 71V71Z" fill="#4A90E2" opacity="0.8" />
+  
+  <circle cx="84" cy="68" r="7" fill="white" opacity="0.7" />
+  <circle cx="84" cy="65" r="3" fill="#4A90E2" opacity="0.8" />
+  <path d="M78 71C78 69.3431 79.3431 68 81 68H87C88.6569 68 90 69.3431 90 71V71C90 71.5523 89.5523 72 89 72H79C78.4477 72 78 71.5523 78 71V71Z" fill="#4A90E2" opacity="0.8" />
+  
+  <!-- Browser Elements - Reduced White -->
+  <rect x="34" y="80" width="60" height="10" rx="5" fill="white" opacity="0.7" />
+  <rect x="40" y="83" width="20" height="4" rx="2" fill="#4A90E2" />
+  <circle cx="88" cy="85" r="3" fill="#4A90E2" opacity="0.7" />
+  
+  <!-- Decorative Lines -->
+  <path d="M34 96L94 96" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.8" />
+  <path d="M44 103L84 103" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.8" />
+  
+  <!-- Definitions -->
+  <defs>
+    <linearGradient id="shield" x1="64" y1="4" x2="64" y2="124" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4A90E2" />
+      <stop offset="100%" stop-color="#1B5EB5" />
+    </linearGradient>
+  </defs>
 </svg> 
