@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
 Disallow: /assets/images/favicon/
+Disallow: /index.html
 
 # Sitemap
 Sitemap: https://profilemanager.pro/sitemap.xml
