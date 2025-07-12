@@ -7,149 +7,113 @@
     <link rel="canonical" href="https://profilemanager.pro/privacy-policy.html">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <style>
-        .privacy-container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
-        .privacy-container h1 {
-            margin-bottom: 30px;
-            text-align: center;
-        }
-        .privacy-container h2 {
-            margin-top: 30px;
-            margin-bottom: 15px;
-        }
-        .privacy-container p {
-            margin-bottom: 15px;
-            line-height: 1.6;
-        }
-        .privacy-container ul {
-            margin-bottom: 15px;
-            padding-left: 20px;
-        }
-        .privacy-container li {
-            margin-bottom: 10px;
-            line-height: 1.6;
-        }
-        .return-home {
-            text-align: center;
-            margin-top: 40px;
-        }
-    </style>
 </head>
 <body>
-    <header>
+    <header class="simple-header">
         <nav>
-            <div class="container">
-                <div class="logo">
-                    <img src="assets/images/logo.svg" alt="Profile Manager Pro Logo">
-                    <span>Profile Manager Pro</span>
-                </div>
-                <ul class="nav-links">
-                    <li><a href="index.html#features">Features</a></li>
-                    <li><a href="index.html#how-it-works">How It Works</a></li>
-                    <li><a href="index.html#faq">FAQ</a></li>
-                    <li><a href="index.html#support">Support</a></li>
-                </ul>
+            <div class="logo">
+                <img src="assets/images/logo.svg" alt="Profile Manager Pro Logo">
+                <span>Profile Manager Pro</span>
             </div>
+            <a href="index.html" class="secondary-button">Go Back</a>
         </nav>
     </header>
 
-    <div class="privacy-container">
+    <main class="privacy-container">
         <h1>Privacy Policy</h1>
         
-        <p><em>Last Updated: April 9, 2025</em></p>
+        <p><em>Last Updated: July 12, 2025</em></p>
         
-        <p>Thank you for choosing Profile Manager Pro ("we", "us", or "our"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our browser extension.</p>
+        <p>Thank you for choosing Profile Manager Pro ("we", "us", or "our"). This Privacy Policy is designed to be clear and transparent about how we handle your data. Our core principle is to protect your privacy by processing all data locally on your device.</p>
         
-        <h2>1. Information We Collect</h2>
+        <h2>1. Data We Handle (and What We Don't)</h2>
         
-        <p>Profile Manager Pro is designed to help you manage multiple browser profiles with minimal data collection. We collect:</p>
+        <p>Profile Manager Pro operates entirely on your local device. We do <strong>not</strong> collect, transmit, or store any of your personal data on external servers.</p>
+        
+        <p>The extension requires access to the following data, which is stored exclusively in your browser's local storage (`localStorage`):</p>
         
         <ul>
-            <li><strong>Browser Profile Data</strong>: Information about your browser profiles is stored locally on your device to enable the functionality of the extension.</li>
-            <li><strong>Cookie Data</strong>: The extension requires access to browser cookies to properly manage and switch between profiles.</li>
-            <li><strong>Storage Data</strong>: We use browser storage to save your profile configurations and preferences.</li>
+            <li><strong>Profile Configuration Data</strong>: This includes the names, settings, and configurations of the browser profiles you create. This data is essential for the extension to function.</li>
+            <li><strong>Cookie Data</strong>: To manage and switch between profiles effectively, the extension needs to interact with your browser's cookies. All cookie handling is done locally.</li>
+            <li><strong>User Preferences</strong>: Any settings you configure within the extension, such as themes or preferences, are saved locally.</li>
         </ul>
-        
-        <p>All data collected is stored locally on your device and is not transmitted to our servers or any third parties.</p>
         
         <h2>2. How We Use Your Information</h2>
         
-        <p>We use the information we collect solely to:</p>
+        <p>The data we access is used solely for the following purposes:</p>
         
         <ul>
-            <li>Enable the core functionality of the Profile Manager Pro extension</li>
-            <li>Save your profile settings and preferences</li>
-            <li>Provide a seamless profile switching experience</li>
+            <li>To provide the core functionality of creating, managing, and switching between browser profiles.</li>
+            <li>To save and persist your settings and preferences for a consistent user experience.</li>
+            <li>To ensure seamless and reliable operation of the extension on your device.</li>
         </ul>
         
-        <h2>3. Data Storage and Security</h2>
+        <h2>3. Data Storage, Security, and Your Rights</h2>
         
-        <p>All data collected by Profile Manager Pro is stored locally on your device using browser storage mechanisms. We implement appropriate technical measures to protect your personal information from unauthorized access or disclosure.</p>
-        
-        <h2>4. Third-Party Services</h2>
-        
-        <p>Profile Manager Pro does not share your data with any third-party services or external servers. All operations are performed locally on your device.</p>
-        
-        <h2>5. Your Data Rights</h2>
-        
-        <p>You have the following rights regarding your data:</p>
+        <p>All data is stored locally on your computer using secure browser storage mechanisms. You have full control over your data.</p>
         
         <ul>
-            <li><strong>Access</strong>: You can access all data stored by the extension in your browser's local storage.</li>
-            <li><strong>Deletion</strong>: Uninstalling the extension will remove all associated data from your device.</li>
-            <li><strong>Control</strong>: You can modify your profiles and settings at any time through the extension interface.</li>
+            <li><strong>Right to Access</strong>: You can inspect all data stored by the extension at any time through your browser's developer tools (in the `localStorage` section).</li>
+            <li><strong>Right to Erasure (Deletion)</strong>: You can delete your data at any time. Uninstalling the extension will permanently remove all associated data from your device.</li>
+            <li><strong>Right to Rectification</strong>: You can modify your profile configurations and settings directly within the extension's interface.</li>
         </ul>
         
-        <h2>6. Children's Privacy</h2>
+        <h2>4. Compliance with GDPR and CCPA</h2>
         
-        <p>Profile Manager Pro is not intended for use by children under the age of 13. We do not knowingly collect personal information from children under 13.</p>
+        <p>While Profile Manager Pro does not transmit data to servers, we are committed to upholding the principles of major data privacy regulations:</p>
         
-        <h2>7. Changes to This Privacy Policy</h2>
+        <ul>
+            <li><strong>Lawful Basis for Processing</strong>: The legal basis for handling your data is its necessity for the functioning of the extension, which you install and use at your discretion.</li>
+            -
+            <li><strong>Data Minimization</strong>: We only handle the minimum amount of data required for the extension to work.</li>
+        </ul>
         
-        <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.</p>
+        <h2>5. Third-Party Services</h2>
         
-        <h2>8. Contact Us</h2>
+        <p>Profile Manager Pro is a self-contained extension. It does <strong>not</strong> integrate with or share data with any third-party services, analytics platforms, or advertisers.</p>
         
-        <p>If you have any questions or concerns about this Privacy Policy, please contact us at:</p>
+        <h2>6. Changes to This Privacy Policy</h2>
         
-        <p>Email: <a href="mailto:support@profilemanager.pro">support@profilemanager.pro</a></p>
+        <p>We may update this Privacy Policy to reflect changes in our practices or for other operational, legal, or regulatory reasons. We will notify you of any significant changes by updating the "Last Updated" date on this page.</p>
         
-        <div class="return-home">
-            <a href="index.html" class="secondary-button">Return to Home</a>
-        </div>
-    </div>
+        <h2>7. Contact Us</h2>
+        
+        <p>If you have any questions, concerns, or feedback about this Privacy Policy, please do not hesitate to contact us at:</p>
+        
+        <p>Email: <a href="mailto:support@profilemanager.pro" rel="noopener noreferrer">support@profilemanager.pro</a></p>
+        
+    </main>
 
     <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4>Profile Manager Pro</h4>
-                    <p>Smart Profile Control</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="index.html#features">Features</a></li>
-                        <li><a href="index.html#how-it-works">How It Works</a></li>
-                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Support</h4>
-                    <ul>
-                        <li><a href="mailto:support@profilemanager.pro">Email Support</a></li>
-                        <li><a href="index.html#faq">FAQ</a></li>
-                    </ul>
-                </div>
+        <div class="container footer-container">
+            <div class="footer-logo">
+                <img src="assets/images/logo.svg" alt="Profile Manager Pro Logo">
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Profile Manager Pro. All rights reserved.</p>
-            </div>
+            <p class="footer-text">
+                &copy; 2025 Profile Manager Pro. All rights reserved. | 
+                <a href="mailto:support@profilemanager.pro" rel="noopener noreferrer">Contact Support</a>
+            </p>
         </div>
     </footer>
+
+    <button id="back-to-top" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+    <script>
+        // Back to top button functionality
+        const backToTopButton = document.getElementById("back-to-top");
+
+        window.onscroll = function() {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        };
+
+        backToTopButton.onclick = function() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        };
+    </script>
 </body>
 </html>

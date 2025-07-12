@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile Manager Pro - Chrome Extension</title>
+    <title>Profile Manager Pro – Browser Extension</title>
     <meta name="description" content="A free browser extension that helps you manage and switch between multiple browser profiles with just one click.">
     <link rel="canonical" href="https://profilemanager.pro/">
-    <meta property="og:title" content="Profile Manager Pro - Chrome Extension">
+    <meta property="og:title" content="Profile Manager Pro – Browser Extension">
     <meta property="og:description" content="A free browser extension that helps you manage and switch between multiple browser profiles with just one click.">
     <meta property="og:image" content="https://profilemanager.pro/assets/images/profile-manager-preview.png">
     <meta property="og:url" content="https://profilemanager.pro/">
@@ -20,6 +20,8 @@
     <link rel="manifest" href="site.webmanifest">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/getting-started.css">
+    <link rel="stylesheet" href="assets/css/responsive-extra.css">
 </head>
 <body>
     <header>
@@ -29,11 +31,11 @@
                     <img src="assets/images/logo.svg" alt="Profile Manager Pro Logo">
                     <span>Profile Manager Pro</span>
                 </div>
+                <button class="menu-toggle" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
                 <ul class="nav-links">
                     <li><a href="#features">Features</a></li>
-                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#getting-started">Getting Started</a></li>
                     <li><a href="#faq">FAQ</a></li>
-                    <li><a href="#support">Support</a></li>
                     <li><a href="privacy-policy.html">Privacy Policy</a></li>
                 </ul>
             </div>
@@ -45,10 +47,10 @@
             <h1>Manage Multiple Browser Profiles with Ease</h1>
             <p class="subtitle">The most powerful profile management solution for Chrome and Firefox users</p>
             <div class="cta-group">
-                <a href="https://chromewebstore.google.com/detail/profile-manager-pro/omnafjdgigipejaajbnlopdjifgknogj" class="primary-button chrome">
+                <a href="https://chromewebstore.google.com/detail/profile-manager-pro/omnafjdgigipejaajbnlopdjifgknogj" class="primary-button chrome" rel="noopener noreferrer" target="_blank">
                     <i class="fab fa-chrome"></i> Add to Chrome
                 </a>
-                <a href="https://addons.mozilla.org/en-US/firefox/addon/profile-manager-pro/" class="primary-button firefox">
+                <a href="https://addons.mozilla.org/en-US/firefox/addon/profile-manager-pro/" class="primary-button firefox" rel="noopener noreferrer" target="_blank">
                     <i class="fab fa-firefox"></i> Add to Firefox
                 </a>
                 <a href="#features" class="secondary-button">Learn More</a>
@@ -61,51 +63,83 @@
             <h2>Powerful Features</h2>
             <div class="features-grid">
                 <div class="feature-card">
-                    <i class="fas fa-users"></i>
-                    <h3>Multiple Profiles</h3>
-                    <p>Easily switch between different browser profiles with one click</p>
+                    <i class="fas fa-globe"></i>
+                    <h3>Per-Site Profiles</h3>
+                    <p>Isolate cookies for each website and switch accounts instantly</p>
                 </div>
                 <div class="feature-card">
-                    <i class="fas fa-shield-alt"></i>
-                    <h3>Secure Management</h3>
-                    <p>Keep your profiles separate and secure with advanced protection</p>
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <h3>Cloud Sync</h3>
+                    <p>Back up profiles securely to Google Drive and sync across devices</p>
                 </div>
                 <div class="feature-card">
-                    <i class="fas fa-sync"></i>
-                    <h3>Quick Switching</h3>
-                    <p>Switch profiles instantly without losing your workflow</p>
+                    <i class="fas fa-file-export"></i>
+                    <h3>Backup &amp; Restore</h3>
+                    <p>Export or import profiles as JSON for safe backups or sharing</p>
                 </div>
                 <div class="feature-card">
-                    <i class="fas fa-cog"></i>
-                    <h3>Custom Settings</h3>
-                    <p>Customize each profile with unique settings and preferences</p>
+                    <i class="fas fa-moon"></i>
+                    <h3>Dark Mode</h3>
+                    <p>A sleek dark theme keeps things comfortable day or night</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="how-it-works" class="how-it-works">
+    <!-- Getting Started Section -->
+    <section id="getting-started" class="getting-started">
         <div class="container">
-            <h2>How It Works</h2>
-            <div class="steps">
-                <div class="step">
+            <h2>How It Works: A Quick Guide</h2>
+            <div class="gs-steps">
+                <div class="gs-item">
                     <div class="step-number">1</div>
                     <h3>Install Extension</h3>
-                    <p>Add Profile Manager Pro to Chrome from the Web Store</p>
+                    <p>Add from the Chrome or Firefox store and pin it to your toolbar.</p>
                 </div>
-                <div class="step">
+                <div class="gs-item">
                     <div class="step-number">2</div>
-                    <h3>Create Profiles</h3>
-                    <p>Set up different profiles for work, personal use, or more</p>
+                    <h3>Create Profile</h3>
+                    <p>On any site, click the icon, name your profile, and save.</p>
                 </div>
-                <div class="step">
+                <div class="gs-item">
                     <div class="step-number">3</div>
-                    <h3>Start Managing</h3>
-                    <p>Easily switch between profiles with our intuitive interface</p>
+                    <h3>Switch Accounts</h3>
+                    <p>Open the extension and click a profile to instantly switch.</p>
+                </div>
+                <div class="gs-item">
+                    <div class="step-number">4</div>
+                    <h3>See All Profiles</h3>
+                    <p>Use the "Show All" toggle in settings to see every profile you've saved.</p>
+                </div>
+                <div class="gs-item">
+                    <div class="step-number">5</div>
+                    <h3>Manage Profiles</h3>
+                    <p>Star your favorites for quick access or export them as a JSON file.</p>
+                </div>
+                <div class="gs-item">
+                    <div class="step-number">6</div>
+                    <h3>Use Dark Mode</h3>
+                    <p>Flip the switch in settings for a comfortable, eye-friendly theme.</p>
+                </div>
+                <div class="gs-item">
+                    <div class="step-number">7</div>
+                    <h3>Cloud Backup</h3>
+                    <p>Turn on Google Drive sync in settings for secure, encrypted backups.</p>
+                </div>
+                <div class="gs-item">
+                    <div class="step-number">8</div>
+                    <h3>Delete with Ease</h3>
+                    <p>Remove single profiles, clear a whole site, or uninstall to erase everything.</p>
+                </div>
+                <div class="gs-item">
+                    <div class="step-number">9</div>
+                    <h3>Stay Fast</h3>
+                    <p>We monitor performance to keep the extension speedy without tracking you.</p>
                 </div>
             </div>
         </div>
     </section>
+
 
     <section id="faq" class="faq">
         <div class="container">
@@ -131,35 +165,18 @@
         </div>
     </section>
 
-    <footer id="support">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4>Profile Manager Pro</h4>
-                    <p>Smart Profile Control</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="#features">Features</a></li>
-                        <li><a href="#how-it-works">How It Works</a></li>
-                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Support</h4>
-                    <ul>
-                        <li><a href="mailto:support@profilemanager.pro">Email Support</a></li>
-                        <li><a href="#faq">FAQ</a></li>
-                    </ul>
-                </div>
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-logo">
+                <img src="assets/images/logo.svg" alt="Profile Manager Pro Logo">
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 Profile Manager Pro. All rights reserved.</p>
-            </div>
+            <p class="footer-text">
+                &copy; 2025 Profile Manager Pro. All rights reserved. | 
+                <a href="mailto:support@profilemanager.pro" rel="noopener noreferrer">Contact Support</a>
+            </p>
         </div>
     </footer>
 
     <script src="js/main.js"></script>
 </body>
-</html> 
+</html>
